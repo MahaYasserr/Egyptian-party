@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+
+.start{
+    background-image: linear-gradient(rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0.5)), url(../imgs/events-heavenly-header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.midsent{
+    font-size: 4rem;
+}
+.desc{
+    font-size: 1.5rem;
+    
+}
+.sidemenu{
+    /* bottom: 50%;
+    left: 100%; */
+   cursor: pointer;
+    /* text-align: center; */
+    color: aliceblue;
+}
+
+.transition{
+    transform: translateX(-100%);
+    transition: all 2s;
+}
+.transition3{
+    transform: translateX(0%);
+    transition: all 2s;
+}
+
+.transition2{
+    transform: translateX(-400%);
+    transition: all 2s;
+}
+.transition4{
+    transform: translateX(0%);
+    transition: all 2s;
+}
+
+.cursor{
+    cursor: pointer;
+}
